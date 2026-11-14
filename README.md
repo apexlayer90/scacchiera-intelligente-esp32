@@ -27,7 +27,7 @@ A 3D-printed smart chessboard driven by an ESP32. Play with real pieces against 
 | Folder | Board size | Printer bed | LED strip | Status |
 |---|---|---|---|---|
 | `stl/268` | 268 × 268 mm, 33 mm squares | ≥ 270 × 270 mm (e.g. Bambu H2S / H2D / H2C) | WS2812B **30 LED/m**, 3 m | ✅ built and tested |
-| `stl/254_non_testata` | 254 × 254 mm, 31 mm squares | 256 × 256 mm (Bambu X1 / P1 / P2S / A1) | WS2812B **144 LED/m**, 2 m | ⚠️ **untested**: derived from the tested design and checked on the computer only |
+| `stl/254_experimental` | 254 × 254 mm, 31 mm squares | 256 × 256 mm (Bambu X1 / P1 / P2S / A1) | WS2812B **144 LED/m**, 2 m | ⚠️ **untested**: derived from the tested design and checked on the computer only |
 
 ## Arduino setup
 
@@ -81,7 +81,7 @@ The full guide with wiring, the reed map and troubleshooting (in Italian) is in 
 Scacchiera intelligente stampata in 3D con un ESP32. Si gioca con pezzi veri contro **Lichess**, contro il **motore offline**, **in 2** o risolvendo **130 problemi** (matto in 1, 2 e 3). Ogni casella riconosce i pezzi con un sensore reed e si illumina con un LED RGB. Un display touch da 3,2" mostra la partita.
 
 - **Versione 268 mm** (`stl/268`): costruita e testata. Serve un piatto di almeno 270 × 270 mm.
-- **Versione 254 mm** (`stl/254_non_testata`): per piatti da 256 mm, **non testata dall'autore**. Usa la striscia da 144 LED/m e lo sketch `scacchiera_254`.
+- **Versione 254 mm** (`stl/254_experimental`): per piatti da 256 mm, **non testata dall'autore**. Usa la striscia da 144 LED/m e lo sketch `scacchiera_254`.
 
 **Installazione:**
 1. Scheda **ESP32 Dev Module**.
